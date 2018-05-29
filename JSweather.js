@@ -15,7 +15,7 @@ var units = {
     }
 };
 
-//MORE PRECISELY THAN LONGITUDE AND LATITUDE AND NO ALERTS
+//MORE PRECISELY THAN GEOLOCATION AND NO ALERTS
 function getcity(unit) {
     $.getJSON("http://freegeoip.net/json/?callback=?", function (datas) {
         city = datas.city;

@@ -15,7 +15,7 @@ var units = {
     }
 };
 
-//MORE PRECISELY THAN GEOLOCATION AND NO ALERTS
+//MORE PRECISELY (Locate and identify website visitors by IP address )
 function getcity(unit) {
     $.getJSON("http://freegeoip.net/json/?callback=?", function (datas) {
         city = datas.city;
